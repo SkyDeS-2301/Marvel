@@ -1,0 +1,19 @@
+@import '../../styles/variables.module';
+
+.btn {
+  padding: 11px 25px;
+  display: inline-block;
+  clip-path: polygon(10% 2%, 100% 0, 100% 50%, 90% 100%, 0 100%, 0% 50%);
+
+  font-size: 14px;
+  font-weight: 400;
+  color: $card-color;
+
+  &__red {
+    background: #9f0013;
+  }
+
+  &__gray {
+    background: #5c5c5c;
+  }
+}

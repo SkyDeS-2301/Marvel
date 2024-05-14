@@ -1,0 +1,21 @@
+@import '../../../styles/variables.module';
+
+
+.nav {
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    font-size: 24px;
+  }
+
+  &__item {
+    color: $main-color;
+  }
+
+  &__item_active {
+    color: $subtitle-color;
+  }
+}

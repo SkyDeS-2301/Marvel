@@ -1,0 +1,19 @@
+@import '../../styles/variables.module';
+
+.header {
+  margin-bottom: 50px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  &__title {
+    font-size: 28px;
+    font-weight: 700;
+    color: $main-color;
+  }
+  &__subtitle {
+    color: $subtitle-color;
+  }
+}

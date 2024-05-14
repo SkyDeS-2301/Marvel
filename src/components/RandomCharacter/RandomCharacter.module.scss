@@ -1,0 +1,8 @@
+.random {
+  margin-bottom: 50px;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

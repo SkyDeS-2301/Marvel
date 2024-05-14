@@ -1,0 +1,31 @@
+@import '../../../styles/variables.module';
+
+.info {
+  display: flex;
+  gap: 30px;
+
+  padding: 35px;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.25);
+
+  &__img {
+    width: 180px;
+    height: 180px;
+  }
+
+  &__content {
+    color: $main-color;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    margin-bottom: 13px;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 30px;
+  }
+}
