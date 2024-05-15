@@ -1,0 +1,53 @@
+@import '../../../styles/variables.module';
+.item {
+  display: flex;
+  gap: 50px;
+
+  font-size: 18px;
+  &__img {
+    width: 295px;
+  }
+
+  &__content {
+    display: grid;
+    gap: 25px;
+
+    flex-grow: 1;
+  }
+
+  &__informations {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  &__title {
+
+  }
+
+  &__back {
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  &__text {
+    max-width: 550px;
+  }
+
+  &__pages {
+
+  }
+
+  &__langs {
+
+  }
+
+  &__price {
+    color: $subtitle-color;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}

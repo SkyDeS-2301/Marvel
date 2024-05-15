@@ -1,10 +1,12 @@
+.wrapper {
+  flex-grow: 1;
+}
 .list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 35px 25px;
 
   margin-bottom: 45px;
-
   &__btn {
     text-align: center;
   }

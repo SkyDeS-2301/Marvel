@@ -1,0 +1,25 @@
+.item {
+  max-width: 225px;
+  justify-content: center;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+
+  &__img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  &__content {
+    padding: 5px;
+  }
+
+  &__name {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  &__price {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+  }
+}

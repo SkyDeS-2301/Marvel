@@ -1,0 +1,30 @@
+@import '../../../styles/variables.module';
+.avengers {
+  padding: 0 25px;
+  margin-bottom: 50px;
+  background: $bg-card;
+  color: $card-color;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 83px;
+  }
+
+  &__text {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__subText {
+    display: block;
+  }
+
+  &__logo {
+
+  }
+}

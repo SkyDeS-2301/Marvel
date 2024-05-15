@@ -1,28 +1,27 @@
 import styles from './App.module.scss'
 import {FC} from "react";
 import AppHeader from "../AppHeader/AppHeader.tsx";
-import RandomCharacter from "../RandomCharacter/RandomCharacter.tsx";
-import CharacterList from "../CharacterList/CharacterList.tsx";
-import CharacterInformation from "../CharacterInformation/CharacterInformation.tsx";
+import CharactersPage from "../CharactersPage/CharactersPage.tsx";
+// import ComicsPage from "../ComicsPage/ComicsPage.tsx";
 
 const App: FC = () => {
 
 
     return (
         <div className={styles.wrapper}>
-            <AppHeader/>
+            <div className='container'>
+                <div className={styles.wrapper__inner}>
+                    <AppHeader/>
 
-            <main className={styles.main}>
-                <RandomCharacter/>
+                    <main className={styles.main}>
+                            <div className={styles.main__inner}>
+                                <CharactersPage/>
+                                {/*<ComicsPage/>*/}
+                            </div>
+                    </main>
 
-                <div className='container'>
-                    <div className={styles.main__inner}>
-                        <CharacterList/>
-
-                        <CharacterInformation/>
-                    </div>
                 </div>
-            </main>
+            </div>
         </div>
     )
 }

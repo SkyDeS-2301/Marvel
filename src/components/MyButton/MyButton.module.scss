@@ -7,8 +7,10 @@
 
   font-size: 14px;
   font-weight: 400;
+  text-align: center;
   color: $card-color;
 
+  cursor: pointer;
   &__red {
     background: #9f0013;
   }

@@ -1,0 +1,13 @@
+.comics {
+
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+
+  }
+
+  &__list {
+    display: grid;
+    gap: 10px;
+  }
+}

@@ -3,10 +3,11 @@ import {FC} from "react";
 
 type PropsType = {
     text: string
+    path?: string
 }
 const MyButtonRed:FC<PropsType> = (props) => {
     return (
-        <a href='#!' className={`${styles.btn} ${styles.btn__red}`}>{props.text}</a>
+        <a href={props.path} className={`${styles.btn} ${styles.btn__red}`}>{props.text}</a>
     );
 };
 

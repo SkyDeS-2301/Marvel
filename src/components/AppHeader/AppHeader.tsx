@@ -5,7 +5,6 @@ import Nav from "./Nav/Nav.tsx";
 const AppHeader:FC = () => {
     return (
         <header className={styles.header}>
-            <div className='container'>
                 <div className={styles.header__inner}>
                     <h1 className={styles.header__title}>
                         <span className={styles.header__subtitle}>Marvel </span>
@@ -14,7 +13,6 @@ const AppHeader:FC = () => {
 
                     <Nav/>
                 </div>
-            </div>
         </header>
     );
 };

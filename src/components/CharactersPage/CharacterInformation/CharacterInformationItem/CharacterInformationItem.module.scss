@@ -1,0 +1,38 @@
+@import '../../../../styles/variables.module';
+
+.information {
+
+  &__avatar {
+    display: flex;
+    gap: 25px;
+
+    margin-bottom: 15px;
+
+    &_img {
+      width: 150px;
+      height: 150px;
+    }
+    &_content {
+      display: flex;
+      flex-direction: column;
+
+    }
+    &_name {
+      font-size: 22px;
+      font-weight: 700;
+
+      flex-grow: 1;
+      margin-bottom: 10px;
+    }
+    &_btns {
+      display: grid;
+      gap: 10px;
+    }
+  }
+
+  &__text {
+    font-size: 14px;
+
+    margin-bottom: 10px;
+  }
+}
