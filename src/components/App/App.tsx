@@ -3,6 +3,7 @@ import {FC} from "react";
 import AppHeader from "../AppHeader/AppHeader.tsx";
 import CharactersPage from "../CharactersPage/CharactersPage.tsx";
 // import ComicsPage from "../ComicsPage/ComicsPage.tsx";
+// import CharacterFullInfo from "../CharactersPage/CharacterFullInfo/CharacterFullInfo.tsx";
 
 const App: FC = () => {
 
@@ -17,6 +18,8 @@ const App: FC = () => {
                             <div className={styles.main__inner}>
                                 <CharactersPage/>
                                 {/*<ComicsPage/>*/}
+
+                                {/*<CharacterFullInfo/>*/}
                             </div>
                     </main>
 

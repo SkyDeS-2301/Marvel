@@ -1,14 +1,24 @@
 import styles from './CharactersPage.module.scss'
 import {FC} from "react";
-import CharactersInfo from "./CharactersInfo/CharactersInfo.tsx";
-// import CharacterFullInfo from "./CharacterFullInfo/CharacterFullInfo.tsx";
+import RandomCharacter from "../RandomCharacter/RandomCharacter.tsx";
+import CharacterList from "./CharacterList/CharacterList.tsx";
+import CharacterInformation from "./CharacterInformation/CharacterInformation.tsx";
+import GlobalDecor from "../GlobalDecor/GlobalDecor.tsx";
 
 const CharactersPage:FC = () => {
     return (
-        <div className={styles.wrapper}>
-            <CharactersInfo/>
+        <div>
+            <div>
+                <RandomCharacter/>
+                <div className={styles.characters}>
+                    <CharacterList/>
 
-            {/*<CharacterFullInfo/>*/}
+                    <CharacterInformation/>
+                </div>
+
+                <GlobalDecor/>
+            </div>
+
         </div>
 
     );

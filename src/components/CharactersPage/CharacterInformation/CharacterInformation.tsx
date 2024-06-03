@@ -4,7 +4,6 @@ import CharacterForm from "./CharacterForm/CharacterForm.tsx";
 import CharacterInformationEmpty from "./CharacterInformationEmpty/CharacterInformationEmpty.tsx";
 // import CharacterInformationItem from "./CharacterInformationItem/CharacterInformationItem.tsx";
 
-
 const CharacterInformation: FC = () => {
     return (
         <div className={styles.wrapper}>
